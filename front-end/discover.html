@@ -4,26 +4,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="discover.css" />
   <title>Discover Page</title>
 </head>
 <body>
-  <h1>Discover</h1>
-  <form id="search-bar">
-    <input type="search" placeholder="Search">
-    <button>Search</button>
-  </form>
-  <h1>Halal Investing 101</h1>
-  <div class="group-1">
-    <div class="box"><h2>What Makes an Investment Halal?</h2></div>
-    <div class="box"><h2>Halal Investment Strategies</h2></div>
+  <div class="container">
+    <h1>Discover</h1>
+    <form id="search-bar">
+      <input type="search" placeholder="Search ticket or stock">
+      <button class="btn">
+        <i class="fas fa-search"></i>
+      </button>
+    </form>
+    <h1>Halal Investing 101</h1>
+    <div class="group-1">
+      <div class="box-1"><h2>What Makes an Investment Halal?</h2></div>
+      <div class="box-1"><h2>Halal Investment Strategies</h2></div>
+    </div>
+    <h1>Daily Movers</h1>
+    <div class="group-2">
+      <div class="box-2">
+        <h2 class="stock">AAPL</h2>
+        <h2 class="company">Apple Inc</h2>
+        <h2 class="price">$146.23</h2>
+        <h2 class="percent">4.08%</h2>
+        <h4 class="update">Last updated: 05/11/22 at 23:00</h4>
+      </div>
+      <div class="box-2">
+        <h2 class="stock">TSLA</h2>
+        <h2 class="company">Tesla Inc</h2>
+        <h2 class="price">$120.23</h2>
+        <h2 class="percent">2.07%</h2>
+        <h4 class="update">Last updated: 05/11/22 at 23:00</h4>
+      </div>
+    </div>
+    <h1>In the News</h1>
+    <div class="news"></div>
   </div>
-  <h1>Daily Movers</h1>
-  <div class="group-2">
-    <div class="box"><h2>Content</h2></div>
-    <div class="box"><h2>Content</h2></div>
-  </div>
-  <h1>In the News</h1>
-  <div class="news"></div>
 </body>
 </html>
